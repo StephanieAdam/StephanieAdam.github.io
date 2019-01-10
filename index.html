@@ -4,8 +4,8 @@ layout: landing
 
 <section id="banner">
   <div class="inner">
-    <h2>{{ site.title }}</h2>
-    <p>{{ site.description | markdownify }}</p>
+    <h3>{{ site.title }}</h3>
+    <p1>{{ site.description | markdownify }}</p1>
   </div>
   <a href="#intro" class="more scrolly">Details</a>
 </section>
@@ -20,6 +20,10 @@ layout: landing
 
 <section id="registry" class="wrapper style3 special">
   {% include sections/honeyfund.html %}
+</section>
+
+<section id="registry" class="wrapper style3 special">
+  {% include sections/donate.html %}
 </section>
 
 <section id="todo" class="wrapper style3 special">
